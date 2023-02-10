@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "CA Mechano Regular";
+  src: url("font.otf") format("opentype");
+}
+
+
+body {
+  font-family: "Museo", sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: "CA Mechano Regular", sans-serif;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  background-color: #333;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-container {
+  background-color: #333;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  outline: none;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: white;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.url-container {
+  background-color: #333;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  background-color: #454a4d;
+  color: #ffff;
+}
+
+.validation-result {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+table {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+tr {
+  border: 1px solid white;
+  margin: 0 auto;
+}
+
+a {
+    color: #3391ff;
+}
+
+h2 {
+  font-family: "CA Mechano Regular", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
